@@ -157,7 +157,7 @@ def message_for_user(user, password, port):
     return '''
     The server has been created. To access it, use the following command:
 
-    ssh -p {port} {user}@{domain}
+    ssh -p {port} {user}@DOMAIN
 
     The password is "{password}".
     '''.format(user=user, password=password, port=port)
